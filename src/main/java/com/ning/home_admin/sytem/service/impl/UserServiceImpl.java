@@ -77,7 +77,7 @@ public class UserServiceImpl implements UserService {
         user.setAvatar("/userImage/newUser.jpg");
         user.setCreateTime(new Date());
         user.setStatus(1);
-        user.setActivate(0);
+        user.setActivate(1);
         user.setPassword(MD5Util.encrypt(user.getUsername(),user.getPassword()));
         int insert = userMapper.insert(user);
         if (insert<=0)

@@ -1,0 +1,78 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "com.ning.home_admin.commons.config.AlipayConfig",
+      "sourceType": "com.ning.home_admin.commons.config.AlipayConfig"
+    },
+    {
+      "name": "febs",
+      "type": "com.ning.home_admin.commons.properties.ShoppingProperties",
+      "sourceType": "com.ning.home_admin.commons.properties.ShoppingProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "alipay-public-key",
+      "type": "java.lang.String",
+      "sourceType": "com.ning.home_admin.commons.config.AlipayConfig"
+    },
+    {
+      "name": "app-id",
+      "type": "java.lang.String",
+      "sourceType": "com.ning.home_admin.commons.config.AlipayConfig"
+    },
+    {
+      "name": "charset",
+      "type": "java.lang.String",
+      "sourceType": "com.ning.home_admin.commons.config.AlipayConfig"
+    },
+    {
+      "name": "febs.open-aop-log",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.ning.home_admin.commons.properties.ShoppingProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "febs.shiro",
+      "type": "com.ning.home_admin.commons.properties.ShiroProperties",
+      "sourceType": "com.ning.home_admin.commons.properties.ShoppingProperties"
+    },
+    {
+      "name": "format",
+      "type": "java.lang.String",
+      "sourceType": "com.ning.home_admin.commons.config.AlipayConfig"
+    },
+    {
+      "name": "log-path",
+      "type": "java.lang.String",
+      "sourceType": "com.ning.home_admin.commons.config.AlipayConfig"
+    },
+    {
+      "name": "merchant-private-key",
+      "type": "java.lang.String",
+      "sourceType": "com.ning.home_admin.commons.config.AlipayConfig"
+    },
+    {
+      "name": "notify-url",
+      "type": "java.lang.String",
+      "sourceType": "com.ning.home_admin.commons.config.AlipayConfig"
+    },
+    {
+      "name": "open-api-domain",
+      "type": "java.lang.String",
+      "sourceType": "com.ning.home_admin.commons.config.AlipayConfig"
+    },
+    {
+      "name": "return-url",
+      "type": "java.lang.String",
+      "sourceType": "com.ning.home_admin.commons.config.AlipayConfig"
+    },
+    {
+      "name": "sign-type",
+      "type": "java.lang.String",
+      "sourceType": "com.ning.home_admin.commons.config.AlipayConfig"
+    }
+  ],
+  "hints": []
+}

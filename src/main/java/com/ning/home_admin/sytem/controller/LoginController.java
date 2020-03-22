@@ -75,7 +75,7 @@ public class LoginController extends BaseController {
         try {
             user.setCode(uuidUtils.getUUID());
             userService.RegisterUser(user);
-            userService.RegisterSendEmail(user.getCode(),user.getEmail(),user.getUsername());
+          //  userService.RegisterSendEmail(user.getCode(),user.getEmail(),user.getUsername());
         } catch (Exception e) {
             throw new LoginException("注册失败，请检查邮箱是否合法，或网络设置");
         }
