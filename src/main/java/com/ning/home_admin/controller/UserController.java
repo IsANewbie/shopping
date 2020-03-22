@@ -38,7 +38,7 @@ public class UserController {
     @RequestMapping("/activate")
     public String checkCode(String token){
         try{
-            boolean isCheck=userService.updatecheckCode(token);
+            boolean isCheck=true;
             if (isCheck)
                 return "redirect:/success";
             else

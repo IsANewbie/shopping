@@ -25,11 +25,13 @@
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/cn.bestwu/fastdfs-client-java -->
         <dependency>
-            <groupId>org.csource</groupId>
+            <groupId>cn.bestwu</groupId>
             <artifactId>fastdfs-client-java</artifactId>
-            <version>1.27-SNAPSHOT</version>
+            <version>1.27</version>
         </dependency>
+
         <dependency>
             <groupId>net.sourceforge.nekohtml</groupId>
             <artifactId>nekohtml</artifactId>
@@ -128,16 +130,17 @@
             <version>2.0.0</version>
         </dependency>
         <!--pay-->
-        <dependency>
-            <groupId>com.alipay</groupId>
-            <artifactId>alipay-trade-sdk</artifactId>
-            <version>20161215</version>
-        </dependency>
-        <dependency>
-            <groupId>com.alipay.sdk</groupId>
-            <artifactId>alipay-sdk-java</artifactId>
-            <version>3.3.4.ALL</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.alipay</groupId>-->
+            <!--<artifactId>alipay-trade-sdk</artifactId>-->
+            <!--<version>20161215</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.alipay.sdk</groupId>-->
+            <!--<artifactId>alipay-sdk-java</artifactId>-->
+            <!--<version>3.3.4.ALL</version>-->
+        <!--</dependency>-->
+
         <!-- 邮件服务 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
